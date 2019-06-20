@@ -1,0 +1,24 @@
+<div class="details">
+    Full Name: {{input class = "inp"  type="text"  value = fname }} <br>
+    Phone Number: {{input class = "inp" type="text" value = phno }} <br>
+    Department: {{input class = "inp" type="text" value = dept }} <br>
+    <button class="btn btn-success" {{action "addValue" fname phno dept}}>Add Value</button>
+</div>
+
+
+
+
+
+<div class="model">
+
+    <div class="sub">
+        <div class="heading">Full Name: </div>{{input  type="text"  class="fval"  value = fname  }}
+    </div>
+    <div class="sub">
+        <div class="heading">Phone Number:</div> {{input  type="text"  class="fval"  value = phno }}
+    </div>
+    <div class="sub">
+        <div class="heading">Department:</div> {{input  type="text"  class="fval"  value = dept }}
+    </div>
+
+</div>

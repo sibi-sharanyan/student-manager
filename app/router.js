@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('viewdata');
+  this.route('editdata');
+  this.route('adddata');
 });
 
 export default Router;
